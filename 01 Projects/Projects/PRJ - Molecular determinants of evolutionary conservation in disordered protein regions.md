@@ -15,7 +15,7 @@ Canvas: [[Molecular determinants of evolutionary conservation.canvas|Molecular d
 
 # Results and Conclusions
 
-[[CLM - “Inert” intrinsically disordered regions suppress RNA binding]]
+[[CLM - “Inert” Intrinsically Disordered Regions Suppress RNA Binding]]
 
 # Todos
 ```tasks

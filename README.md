@@ -1,144 +1,68 @@
-This is an example vault that illustrates potential usage of the [discourse graph plugin](https://discoursegraphs.com/docs/obsidian/getting-started) to structure project/experiment management, and synthesis and reflection of results in conversation with prior literature towards new directions and contributions.
-# Plugins in the vault (and why)
+# Motivation
 
-## Core
+The systems and tools I've developed and share here are guided by two big ideas for me: 1) standard productivity advice and tools are an uneasy fit with open-ended research work
 
-**Bases**: enables queries over discourse nodes, etc. - examples are in the vault
+## Standard productivity advice and tools are an uneasy fit with open-ended research work
 
-**Backlinks** (optional): nice to have references to a given note easily accessible at the bottom of the page
+The central productivity problem to solve for PhD work is not "How can I maximize my production of well-defined outputs", but "[[In light of my unique environmental context, how can I maximize the depth and breadth of conceptual focus required for genuine new insights for my field of study]]?" 
 
-## Community
+Some unique features of this problem include that:
+- Progress towards insight appears to be reliably nonlinear with respect to time and effort, and thus is hard to neatly break down into concrete and stable schedules or outputs. I deeply resonate with how Andy Matuschak describes that [here](https://andymatuschak.org/stillness/) and [here](https://blog.andymatuschak.org/post/159979927467/satisfaction-and-progress-in-open-ended-work). I also resonate with this picture of how research typically goes:
+	- ![[Pasted image 20251016105039.png]]
+- Progress towards insight seems to benefit greatly from long blocks of focus, and/or minimal context switching. This has sometimes been described in terms of the [Maker vs. Manager schedule](https://www.paulgraham.com/makersschedule.html). You can also see lots of neat examples of this. 
 
-### Required
+I often experience tension between this central problem and the attendant demands that surround PhD work, both professionally (e.g., teaching, coursework, concrete milestones, grant and paper deadlines) and personally (we still have lives! and sometimes other jobs alongside our PhD work!). The latter set of issues are often quite amenable to standard productivity advice and tools, like [[Getting Things Done (GTD)]], and [[Gantt Charts]], but often don't *quite* fit with the problem of focus for insight described above.
 
-- **[BRAT](https://github.com/TfTHacker/obsidian42-brat)**: this is how we load our plugin at the moment
-- **[Datacore](https://github.com/blacksmithgu/datacore)** : this is the query engine that underlies our plugin
-- **[Discourse Graph](https://discoursegraphs.com/docs/obsidian/getting-started)** (required): this is our plugin :)
+So that's the first big ideaI I've had to solve. How to adapt some good ideas from standard productivity advice (e.g., estimation, scheduling) to the open-ended nature of research work.
 
-### Recommended
-- **[Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks)** (recommended): makes it easier to create/query/manage todos
-- **[Outliner](https://github.com/vslinko/obsidian-outliner)** (optional): makes it easier and nicer
+## People (and environments) vary a lot, and this matters for what works productivity-wise!
 
-# Overall structure of the vault (and why)
+The other big idea is individual and environmental variation. People are very different from each other, and they are part of situations that are also very different from each other. So there isn't really a one-size-fits-all: you kinda have to experiment and/or adapt.
 
-The current structure is loosely based on existing lab discourse graphs workflows in Roam - we haven't actually observed or developed workflows in practice for labs in Obsidian/git yet. So this is definitely up for revision! We've tried to support reasoning about the folder structure with some rationales and marking where the existence of certain folders is important.
+This is one reason I advocate for experimenting with tools like Obsidian. They're very powerful and can implement a wide-range of systems and practices. And Obsidian is free! :) You're also probably going to need lots of other physical tools, etc., so why not *not* pay for Notion :)
+# Some things that have worked for me
 
-- `Bases/` no particular reason that the `.base` files should all live in here. could easily see them living inside the respective content folders (e.g., a `Projects.base` in the Project folder)
-- `DiscourseGraph/` not a bad idea to set a default location for new discourse nodes
-- `Meta/`
-	- `Attachments/` usually it's good set a folder for attachments to go to, but it can be anywhere
-	- `Templates/` the discourse nodes can be created based on a template. the plugin needs to be pointed to a folder that contains templates to use. templates in these folder can also be used for other notes, not just discourse nodes
-	- `Conventions.md` this might be a good place to write down the conventions/workflows for your lab
-- `Projects/` pretty self-explanatory, and probably something you want to do to track projects. 
-- `Protocols/` optional, if you want to create and track specific protocols and link to them in your experiments, and what questions they can address
+The following are some patterns of tools, systems, and/or workflows that I've found useful for navigating this tension.
+## Extending and maximizing conceptual focus over time with tools/notes
 
-## Functional Modules
+I do this in Roam, using the DiscourseGraph structure. Will show, then add examples to this vault later. 
 
-### Experiment pages
+Basic ideas:
+- Try to orient projects towards scientific goals
+- Make the goals/questions things that I can add to or draw from over time (using hypertext)
+- Take notes to enable me to preserve context over time (or at least to make recontextualization way faster!)
+## [[A regular practice of reflection at multiple scales]]
 
-Annotated example
+I took inspiration from Robert Talbert's series on GTD for academics (see [this post](https://intentionalacademia.substack.com/p/the-weekly-review), for example), which introduced me to the idea of Annual, Trimesterly, and Weekly Reviews (and mostly let the GTD stuff fall by the wayside, and as you can see in the example in [[Week of 2025-09-01]], my practices differ QUITE a bit). But the core idea of taking the time to step back and reorient and reflect is still there. Turns out this reflection approach is a pretty common best practice, showing up in best practices in Jessica Calarco's book, which is drawn from wisdom from the [NCFDD](https://www.ncfdd.org/.)
 
-![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fdiscourse-graphs%2FYvAlbf0Gk8.png?alt=media&token=d81e673e-b65f-4d70-b5dc-95fde17c8a48)
+I've found that this helps me:
+- Stay oriented towards what I actually care about, and enable me to make more aligned decisions on a day to day basis
+- Figure out what is working or not working and tweak accordingly
+	- E.g., split exercise into morning and evening, write on paper at breakfast to ground myself, be outside more, etc. etc.
 
-The structure of these pages enables you to
-- Keep target question or hypothesis close by, to define the purpose of the experiment
-- Keep an experiment log where you can reflect on observations, and (if appropriate) formalize these into hypotheses or results you want to share with others by creating discourse nodes
-- Reflect on progress of the experiment by comparing tabulated results from the experiment against the target question
+I've included here examples of review at the following levels:
+- Daily (daily notes in `00 Commonplace`)
+- Weekly (example: [[Week of 2025-09-01]])
+- Trimesterly and Annually (just templates for now in [[Trimesterly Review]] and [[Annual Review]]), which are guided by documents like [[My Mission and Values]] and [[My Goals]])
+## [[Coordinating my goals and tasks with my actual schedule]]
 
-Key actions
-- Set/change the target question by changing it in the `targetQuestionOrHyp` property for the page
-- Review progress by comparing the target question to the tabulated results so far. The `.base` query will auto-update
+From here we start to get into more experimental territory, where I have things that work kinda well, but I wouldn't say they are amazing.
 
-There is a template in the example vault that you can modify (in `Meta/Templates/Experiment.md`)
+I found with GTD that I had a lot of trouble estimating what was a reasonable ask for myself for a given week. I now use UseMotion as my general task management system because it has a default process for putting my commitments and tasks on my calendar, like a digital calendar version of the "sands and stones" activity.
 
-### Project pages
+I don't follow the actual scheduling, though: because Motion doesn't know about my energy levels and priorities at a more granular level. That's ok. The boost of visually seeing my commitments helps me say no (see next section).
 
-Annotated example
+Time boxing and Toggl also kind of help me not "scope creep" the time I spend on things that are not on my critical path.
+## Clear rules and procedures for saying no to things that I actually follow
 
-![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fdiscourse-graphs%2FrNriAK2fdI.png?alt=media&token=ee7e1ebc-2bc1-48fd-b7d6-6ec65d2f078f)
+I've tried, with varying success:
+- A "no committee"
+- A "cooldown" rule: don't say yes until at least N time has passed, and I've taken the time
+- The hell yeah or nah rule
 
-The structure of these pages enables you to
-- Keep the broad target question(s) close by, provide space for reflecting on what has been learned from the experiments
-- Consolidate key links/resources for the project
-- Keep a log of project notes
+Big upgrades came from:
+- Therapy
+- Explicitly articulating and orienting to my priorities (which falls out of [[A regular practice of reflection at multiple scales]])
+- Some time estimation work to at least order of magnitude estimate what I'm saying yes to - but more generally just [[Coordinating my goals and tasks with my actual schedule]]
 
-Key actions
-- Review progress by pulling in results from each experiment alongside the literature and your questions by placing them on the project canvas
-- There is a template in the example vault that you can modify (in `Meta/Templates/Project.md`)
-
-### Creating Discourse Nodes
-
-Currently this can be done in three ways (see [docs](https://discoursegraphs.com/docs/obsidian/creating-discourse-nodes) for more details)
-- Using the command palette
-- Convert existing text to node
-	- Suspect to start with, if you're migrating over a small project, you'll mostly be doing this
-		- List out all the questions/claims/evidence/etc., maybe in an outline
-		- And convert individual ones to nodes, put figures/other info inside as needed
-- Convert existing page to node
-
-You can also set/create/edit templates to use for creating specific nodes (see [docs](https://discoursegraphs.com/docs/obsidian/node-types-templates#working-with-templates) for more details). For instance, you might want to ensure that a result page has a key figure and some details about the experimental method.
-
-### Exploring "Discourse Context" for Nodes
-
-You can toggle a sidebar "discourse context" component that shows you any discourse relations you've created between a given node to other nodes (e.g., what claims inform this question, which evidence supports/opposes this claim)
-
-See [docs](https://discoursegraphs.com/docs/obsidian/discourse-context) for more details
-
-### Linking Discourse Nodes
-
-Currently this is done using the buttons in the discourse context component (see [docs](https://discoursegraphs.com/docs/obsidian/creating-discourse-relationships) for more details)
-
-### Bases
-
-This is new in Obsidian as of the last ~month or so. It enables you to create "databases" for your notes, which you can use to view/rank/sort projects, experiments, or other things you want to track in a live updated query. We find these queries to be quite useful in our labs so it will probably be useful here too. I've included some examples in the vault.
-
-# Notes
-
-Please feel free to organize the vault's folders however you like! It sounds like Graham has very substantial Obsidian experience, + there may be organizational structure patterns that work well for your lab.
-
-## Suggestions for how to explore discourse graphs using this example vault
-
-1. Download this example vault (all plugin "batteries" are included already)
-2. Choose 1-2 projects that already have some questions/claims/evidence around them, maybe some sub-experiments too
-3. For each project
-	1. Create the project and its container experiments
-	2. Map out the key questions/claims/evidence for the project
-	3. Maybe tabulate some logs for ongoing experiments in those projects
-
-Here's a quick Loom on how this might go: https://www.loom.com/share/f80799f5d0f44a51b1951bc835e4fef7
-## Some additional open questions that can be up to you and we can discuss more
-
-### Tracking different types/shades of (claims/hypotheses/conclusion, evidence/results). 
-
-Conceptually claims/hypotheses/conclusions are basically the same (generalized assertions about a phenomenon) and evidence/results are the same (contextualized descriptions of observations from a specific experiment). 
-
-If you'd like to iterate on this, we can discuss more, and/or you can explore the docs for how to define [new types of nodes](https://discoursegraphs.com/docs/obsidian/node-types-templates#adding-a-node-type) and [new types of relations](https://discoursegraphs.com/docs/obsidian/relationship-types#adding-relationship-types).
-
-### Templates/workflows
-
-At the moment a lot of our lab processes are encoded in "smartblock" workflows and templates. For instance, we have meeting templates that focus attention on research questions, and workflows for creating new projects/experiments that encourage specification of target questions/hypotheses. You may want to start working in similar things to support sufficient (minimal) standardization and shared processes as you collaborate.
-
-Our discourse plugin supports the use of templates when creating discourse nodes, but for more advanced workflow structuring, you might experiment with the Templater plugin: 
-
-Docs: https://silentvoid13.github.io/Templater/
-
-Examples: https://github.com/SilentVoid13/Templater/discussions/categories/templates-showcase
-
-### Personal home page notes
-
-In Roam in a collaborative setting, we often have personal home pages and sidebars where people can bookmark certain important pages for them and write any other unsorted notes they like. Like this:
-
-![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Fdiscourse-graphs%2F2MC50YqgoG.png?alt=media&token=20fb476b-f534-4f6a-8d5c-25a6d303a2ab)
-
-This is a bit different from a usual single-player Obsidian pattern where you might just work in daily note pages, but might end up being useful in a lab/collaborative setting. So this isn't in the example vault in a formal way, though there is a small example in [[Rosalind Franklin]] page that could be a starting point for exploration of this pattern. 
-
-### Literature notes
-
-The example vault currently lacks an example of literature notes (e.g., a source page with associated claims or evidence).
-
-If you're interested in this use case and would like to learn more, please [reach out](https://join.slack.com/t/discoursegraphs/shared_invite/zt-37xklatti-cpEjgPQC0YyKYQWPNgAkEg) to talk more about this, especially once you've selected a couple starter projects and what the related literature is and what a useful workflow would be.
-
-### Meeting notes
-
-In a lab setting it can be useful to host meeting notes in the same vault: this allows you to structure your meetings around sharing/developing discourse nodes (e.g., hypotheses/results). The vault includes a simple example note ([[Lab Meeting Notes 2025]]) with links to experiments/results. Feel free to modify!
-
+These seemed to be the higher order blockers and preconditions for other strategies to work (e.g., what counts as "hell yeah"?)
