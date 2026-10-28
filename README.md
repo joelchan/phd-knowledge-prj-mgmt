@@ -23,14 +23,25 @@ This is one reason I advocate for experimenting with tools like Obsidian. They'r
 # Some things that have worked for me
 
 The following are some patterns of tools, systems, and/or workflows that I've found useful for navigating this tension.
+
 ## Extending and maximizing conceptual focus over time with tools/notes
 
-I do this in Roam, using the DiscourseGraph structure. Will show, then add examples to this vault later. 
+Drawing on ideas from [distributed cognition]([url](https://en.wikipedia.org/wiki/Distributed_cognition)) and the "extended mind", I've had very good success extending and maximizing conceptual focus over time (despite distractions and interruptions inherent to being a TTK faculty + father to 2 young children + other responsibilities) with tools and notes.
+
+Here's a preview of a discussion of this in INST803 (which I think I'll teach again!): https://joelchan.github.io/INST802-SP26/2_Lecture-Notes/Week-2---Process-Foundations,-Interdisciplinarity
+
+I implement a hypertext notetaking system in a mixture of [Roam]([url](https://roamresearch.com/)) and Obsidian, using a [Discourse Graph](https://discoursegraphs.com/) structure. 
+I wrote about the roots of this approach in [this piece]([url](https://oasislab.pubpub.org/pub/54t0y9mk/release/3)) a few years back, and and recently also described these practices in more detail in [this paper]([url](https://dl.acm.org/doi/abs/10.1145/3654777.3676338)) I co-authored on hypertext note-taking practices for scholars.
 
 Basic ideas:
 - Try to orient projects towards scientific goals
 - Make the goals/questions things that I can add to or draw from over time (using hypertext)
 - Take notes to enable me to preserve context over time (or at least to make recontextualization way faster!)
+
+This structure allows me to maintain and deepen threads of thinking over time, and not start from scratch when I have the time to focus or pick up research threads.
+
+You can [implement]([url](https://discoursegraphs.com/docs/obsidian/getting-started)) a lot of this in [Obsidian]([url](https://obsidian.md/)) (hence this vault!) which is free and has a very large and thriving community of academic users (including many in the INFO College at UMD!). 
+
 ## [[A regular practice of reflection at multiple scales]]
 
 I took inspiration from Robert Talbert's series on GTD for academics (see [this post](https://intentionalacademia.substack.com/p/the-weekly-review), for example), which introduced me to the idea of Annual, Trimesterly, and Weekly Reviews (and mostly let the GTD stuff fall by the wayside, and as you can see in the example in [[Week of 2025-09-01]], my practices differ QUITE a bit). But the core idea of taking the time to step back and reorient and reflect is still there. Turns out this reflection approach is a pretty common best practice, showing up in best practices in Jessica Calarco's book, which is drawn from wisdom from the [NCFDD](https://www.ncfdd.org/.)
@@ -44,15 +55,20 @@ I've included here examples of review at the following levels:
 - Daily (daily notes in `00 Commonplace`)
 - Weekly (example: [[Week of 2025-09-01]])
 - Trimesterly and Annually (just templates for now in [[Trimesterly Review]] and [[Annual Review]]), which are guided by documents like [[My Mission and Values]] and [[My Goals]])
+
 ## [[Coordinating my goals and tasks with my actual schedule]]
 
 From here we start to get into more experimental territory, where I have things that work kinda well, but I wouldn't say they are amazing.
 
-I found with GTD that I had a lot of trouble estimating what was a reasonable ask for myself for a given week. I now use UseMotion as my general task management system because it has a default process for putting my commitments and tasks on my calendar, like a digital calendar version of the "sands and stones" activity.
+I found with GTD that I had a lot of trouble estimating what was a reasonable ask for myself for a given week. I experimented with [UseMotion]([url](https://www.usemotion.com/)) for about a year as my general task management system because it has a default process for putting my commitments and tasks on my calendar, like a digital calendar version of the "sands and stones" activity.
 
-I don't follow the actual scheduling, though: because Motion doesn't know about my energy levels and priorities at a more granular level. That's ok. The boost of visually seeing my commitments helps me say no (see next section).
-
+I never really followed the actual scheduling, though: because Motion doesn't know about my energy levels and priorities at a more granular level. But I did like the ability to visually see my commitments, which helped me say no (see next section).
 Time boxing and Toggl also kind of help me not "scope creep" the time I spend on things that are not on my critical path.
+
+I've now integrated these practices into an AI-assisted hybrid time-tracking + calendar blocking + interstitial journaling based system that runs through Obsidian (loosely inspired by the above ideas + [this system]([url](https://www.chatprd.ai/how-i-ai/teresa-torres-claude-code-obsdian-task-management))). It's pretty complicated and is probably the most functional system I've created so far (most weeks now I know how much capacity I have, and can estimate the time load required to say yes/no to common tasks, which is a big win), but it's probably too complicated for most people and too messy to share atm.
+
+As a foil to this, I give you this dead-simple approach that runs on similar principles around calendar-todo-journaling integration (which I don't use, but seems to work well for many successful people): https://jeffhuang.com/productivity_text_file/
+
 ## Clear rules and procedures for saying no to things that I actually follow
 
 I've tried, with varying success:
@@ -63,6 +79,15 @@ I've tried, with varying success:
 Big upgrades came from:
 - Therapy
 - Explicitly articulating and orienting to my priorities (which falls out of [[A regular practice of reflection at multiple scales]])
-- Some time estimation work to at least order of magnitude estimate what I'm saying yes to - but more generally just [[Coordinating my goals and tasks with my actual schedule]]
+- Time estimation work to at least order of magnitude estimate what I'm saying yes to - but more generally just [[Coordinating my goals and tasks with my actual schedule]]
 
 These seemed to be the higher order blockers and preconditions for other strategies to work (e.g., what counts as "hell yeah"?)
+
+## Mechanical boundaries to reduce reliance on willpower
+
+Inspired in part by Matt Might's ["path of least resistance" methodology](https://matt.might.net/articles/productivity-tips-hints-hacks-tricks-for-grad-students-academics/#philosophy), I've had some degree of success recently with a set of supplemental mechanical boundaries that add friction or blockers to undesired behavior. 
+
+I use [Cold Turkey](https://getcoldturkey.com/) to set some friction during the day, and Frozen Turkey to reduce the incidence of late nights of work (takes away the option, no need to decide to go to bed)
+And a [customized delay timer](https://github.com/joelchan/social-delay-extension).
+
+Works best when I pair with these with the above strategies, especially positive ones (e.g., use the friction as a trigger to go for a walk instead).
