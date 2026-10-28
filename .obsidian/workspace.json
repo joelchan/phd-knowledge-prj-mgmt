@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 Meta/Templates/Trimesterly Review.md",
+                "file": "02 Resources/My Goals.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,62 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Trimesterly Review"
-            }
-          },
-          {
-            "id": "2faa5083c5c71976",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "842ed18bc64ab30f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d3222272f8a7c316",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "README"
+              "title": "My Goals"
             }
           }
         ]
@@ -106,7 +51,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -151,13 +98,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "02 Resources/My Goals.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline"
             }
           }
         ]
@@ -221,23 +168,14 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
-          },
-          {
-            "id": "806360f26703ea6b",
-            "type": "leaf",
-            "state": {
-              "type": "discourse-context-view",
-              "state": {},
-              "icon": "telescope",
-              "title": "Discourse Context"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 367.5
+    "width": 367.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,38 +188,41 @@
       "bases:Create new base": false,
       "obsidian42-brat:BRAT": false,
       "discourse-graphs:Toggle Discourse Context": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "discourse-graphs:Toggle discourse context": false
     }
   },
-  "active": "d3222272f8a7c316",
+  "active": "4b3b1cd85419b059",
   "lastOpenFiles": [
-    "04 Meta/Templates/Experiment.md",
+    "02 Resources/My Mission and Values.md",
+    "00 Commonplace/Weeks/Week of 2025-09-01.md",
+    "04 Meta/Templates/Weekly Review.md",
+    "04 Meta/Templates/Trimesterly Review.md",
+    "00 Commonplace/2025-08-26.md",
+    "Boundary Objects.md",
     "README.md",
+    "Some thoughts about productivity systems for PhD students.md",
+    "relations.json",
+    "04 Meta/Templates/Annual Review.md",
+    "02 Resources/My Goals.md",
+    "00 Commonplace/2025-08-28.md",
+    "00 Commonplace/2025-08-29.md",
+    "00 Commonplace/2025-08-31.md",
+    "04 Meta/Templates/Experiment.md",
     "Meta/Attachments/Pasted image 20251016105039.png",
     "Meta/Attachments",
     "Meta",
     "04 Meta/Templates/DNP.md",
-    "04 Meta/Templates/Annual Review.md",
     "Choose an intention, not a resolution.md",
-    "02 Resources/My Goals.md",
-    "02 Resources/My Mission and Values.md",
-    "00 Commonplace/Weeks/Week of 2025-09-01.md",
-    "00 Commonplace/2025-08-26.md",
     "00 Commonplace/2025-08-27.md",
-    "00 Commonplace/2025-08-28.md",
-    "00 Commonplace/2025-08-29.md",
-    "00 Commonplace/2025-08-31.md",
     "00 Commonplace/2025-08-30.md",
-    "04 Meta/Templates/Trimesterly Review.md",
     "04 Meta/Templates/ITG.md",
-    "04 Meta/Templates/Weekly Review.md",
     "01 Projects/Projects",
     "01 Projects/Experiments",
     "00 Commonplace/Weeks",
     "04 Meta/Mission and Values.md",
     "Home.md",
     "Rosalind Franklin.md",
-    "README.md",
     "04 Meta/Conventions.md",
     "02 Resources",
     "00 Commonplace",
@@ -289,10 +230,8 @@
     "01 Projects/Molecular determinants of evolutionary conservation.canvas",
     "In light of my unique environmental context, how can I maximize the depth and breadth of conceptual focus required for genuine new insights for my field of study.md",
     "Joshua Lederberg.md",
-    "Esther Lederberg.md",
     "01 Projects/Projects/Projects.base",
     "02 Resources/DiscourseGraph/Questions.base",
-    "02 Resources/DiscourseGraph/Results.base",
     "04 Meta/Attachments/CleanShot 2025-09-11 at 16.55.46.png",
     "04 Meta/Attachments/CleanShot 2025-09-11 at 16.14.05.png",
     "04 Meta/Attachments/CleanShot 2025-09-11 at 16.12.52.png"

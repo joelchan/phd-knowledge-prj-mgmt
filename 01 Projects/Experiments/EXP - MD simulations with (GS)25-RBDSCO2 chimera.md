@@ -1,15 +1,13 @@
 ---
 nodeTypeId: node_Qbdr-LbBCb_WjPFNTnjTX
 targetQuestionOrHyp: "[[QUE - How do inert IDRs affect binding affinity?]]"
-rel_5nnUOb6wBzlAwAF2Wk-ts:
-  - "[[RES - repeated association and dissociation events between (rU)25 and the (GS)25-RBD constructs]]"
-  - "[[RES - (GS)25-RBD suppressed RNA binding compared to the RBD alone]]"
 project: "[[PRJ - Molecular determinants of evolutionary conservation in disordered protein regions]]"
 status: Completed
 lead: "[[Esther Lederberg]]"
 contributors:
   - "[[Rosalind Franklin]]"
   - "[[Joshua Lederberg]]"
+nodeInstanceId: 01a18088-425b-7eb0-b8b0-094e9c8aff46
 ---
 # Resources
 

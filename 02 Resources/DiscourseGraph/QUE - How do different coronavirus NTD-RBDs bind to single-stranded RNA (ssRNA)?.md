@@ -1,6 +1,4 @@
 ---
 nodeTypeId: node_4SqRl5RIkaUMb9fLOpdhq
-relation_G8GMDxjFv_e5ePzoR7uYn:
-  - "[[QUE - How do inert IDRs affect binding affinity?]]"
-  - "[[QUE - How do disordered proteins drive self-assembly in the context of biological phase separation?]]"
+nodeInstanceId: 01a18088-426f-749d-90c7-4b6447e96e16
 ---
