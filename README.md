@@ -1,6 +1,8 @@
 # Motivation
 
-The systems and tools I've developed and share here are guided by two big ideas for me: 1) standard productivity advice and tools are an uneasy fit with open-ended research work
+The systems and tools I've developed and share here are guided by two big ideas for me: 1) standard productivity advice and tools are an uneasy fit with open-ended research work.
+
+Current shortlink to this repo: https://go.umd.edu/phd-productivity
 
 ## Standard productivity advice and tools are an uneasy fit with open-ended research work
 
